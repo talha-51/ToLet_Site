@@ -79,7 +79,8 @@
                                 <a class="nav-link" href="#footer">CONTACT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href=''> <i class="fa fa-user" aria-hidden="true"></i>
+                                <a class="nav-link" href='{{ route('login.index') }}'> <i class="fa fa-user"
+                                        aria-hidden="true"></i>
                                     Login</a>
                             </li>
                         </ul>
