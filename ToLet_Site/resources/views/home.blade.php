@@ -5,10 +5,10 @@
 
 @section('mainContent')
     <!-- slider section -->
-    <section class="slider_section ">
+    <section class="slider_section">
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-interval="2000">
                     <div class="container ">
                         <div class="row">
                             <div class="col-md-6 ">
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item ">
+                <div class="carousel-item" data-interval="2000">
                     <div class="container ">
                         <div class="row">
                             <div class="col-md-6 ">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-interval="2000">
                     <div class="container ">
                         <div class="row">
                             <div class="col-md-6 ">
@@ -434,7 +434,7 @@
                     What says our <span>Customers</span>
                 </h2>
             </div>
-            <div class="carousel-wrap ">
+            <div class="carousel-wrap" data-interval="2000">
                 <div class="owl-carousel client_owl-carousel">
                     <div class="item">
                         <div class="box">

@@ -79,8 +79,9 @@
                                 <a class="nav-link" href="#footer">CONTACT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href='{{ route('login.index') }}'> <i class="fa fa-user"
-                                        aria-hidden="true"></i>
+                                <a class="nav-link"
+                                    href='@if (session('id')) {{ route('admin.index') }} @else {{ route('login.index') }} @endif'>
+                                    <i class="fa fa-user" aria-hidden="true"></i>
                                     Login</a>
                             </li>
                         </ul>
@@ -119,13 +120,13 @@
                                 <a class="active" href='{{ route('home.index') }}'>
                                     Home
                                 </a>
-                                <a class="" href=''>
+                                <a class="" href='{{ route('home.bedSpace') }}'>
                                     Bed Space
                                 </a>
-                                <a class="" href=''>
+                                <a class="" href='{{ route('home.room') }}'>
                                     Room
                                 </a>
-                                <a class="" href=''>
+                                <a class="" href='{{ route('home.flat') }}'>
                                     Flat / Villas
                                 </a>
                             </div>

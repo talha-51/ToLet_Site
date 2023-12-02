@@ -15,7 +15,7 @@
             <div class="col-lg-4 mb-4">
                 <div class="card bg-light text-black shadow">
                     <div class="card-body text-center">
-                        <a href="">Add Bed Space</a></a>
+                        <a href="{{ route('product.bedSpaceList') }}">Bed Space List</a></a>
                     </div>
                 </div>
             </div>
@@ -23,14 +23,14 @@
                 <div class="card bg-light text-black shadow">
 
                     <div class="card-body text-center">
-                        <a href="">Add Room</a>
+                        <a href="{{ route('product.roomList') }}">Room List</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card bg-light text-black shadow">
                     <div class="card-body text-center">
-                        <a href="">Add Flat / Villa</a>
+                        <a href="{{ route('product.flatList') }}">Flat / Villa List</a>
                     </div>
                 </div>
             </div>
