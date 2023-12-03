@@ -2,9 +2,9 @@
 
 Requirements:
 
-1.PHP version-^7.3|^8.0, Laravel version-^8.75
-2.composer
-3.phpMyAdmin
+1. PHP version-^7.3|^8.0, Laravel version-^8.75
+2. composer
+3. phpMyAdmin
 
 To Run The Project:
 
